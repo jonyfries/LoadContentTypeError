@@ -1,0 +1,22 @@
+!PrefabAsset
+Id: 795fb9d6-c6b2-439a-8104-9d991e4b1eb8
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 8a0976b8-28c7-48e1-82cc-e7167cf53544
+    Parts:
+        -   Entity:
+                Id: 8a0976b8-28c7-48e1-82cc-e7167cf53544
+                Name: Boat
+                Components:
+                    c543aac867f4dde8f12681ae9f847f8c: !TransformComponent
+                        Id: d7a75d1e-4939-4dc7-a743-ccc937173738
+                        Position: {X: -8.052333, Y: 2.048522, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    deb8aa9a8671cdfa4285a51e8104bef9: !ModelComponent
+                        Id: 063a53bc-9951-4387-b94b-2aacb3b7e66f
+                        Model: 807d28dd-85aa-4b03-96ae-d24f5628d9eb:BoatCog
+                        Materials: {}
